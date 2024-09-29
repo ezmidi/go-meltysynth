@@ -35,8 +35,8 @@ func (settings *SynthesizerSettings) validate() error {
 		return errors.New("the block size must be between 8 and 1024")
 	}
 
-	if !(8 <= settings.MaximumPolyphony && settings.MaximumPolyphony <= 256) {
-		return errors.New("the maximum number of polyphony must be between 8 and 256")
+	if !(8 <= settings.MaximumPolyphony && settings.MaximumPolyphony <= 102400) {
+		return errors.New("the maximum number of polyphony must be between 8 and 102400")
 	}
 
 	return nil
