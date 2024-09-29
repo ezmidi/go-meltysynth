@@ -100,4 +100,10 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/go,windows,linux,macos
 
+# Visual Studio Code
+.vscode/
 
+# Test Essentials
+*.sf2
+*.mid
+*.midi
